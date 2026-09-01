@@ -241,4 +241,4 @@ function add(text, who) {
 
     chat.appendChild(d);
     chat.scrollTop = chat.scrollHeight;
-}
+} 
