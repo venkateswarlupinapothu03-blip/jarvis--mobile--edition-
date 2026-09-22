@@ -101,4 +101,4 @@ document.getElementById('send').onclick=()=>{ const t=input.value.trim(); if(!t)
   add('YOU: '+t,'user'); input.value=''; askGemini(t); };
 if(clearBtn){ clearBtn.onclick=()=>{ MEMORY=[]; saveMemory(); chat.innerHTML=''; add('SYSTEM: Memory cleared.','ai'); }; }
 
-function add(t,w){const d=document.createElement('div');d.className='msg '+w;d.innerText=t;chat.appendChild(d);chat.scrollTop=chat.scrollHeight;} 
+function add(t,w){const d=document.createElement('div');d.className='msg '+w;d.innerText=t;chat.appendChild(d);chat.scrollTop=chat.scrollHeight;}
