@@ -1,5 +1,115 @@
 <!DOCTYPE html>
+<html <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>J.A.R.V.I.S</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>J.A.R.V.I.S</h1>
+        <p>PERSONAL AI ASSISTANT</p>
+    </header>
+
+    <!-- ARC REACTOR -->
+    <section class="reactor">
+        <div class="ring ring1"></div>
+        <div class="ring ring2"></div>
+        <div class="ring ring3"></div>
+
+        <div class="core"></div>
+    </section>
+
+    <div class="system-ready">
+        ● SYSTEM READY
+    </div>
+
+    <!-- SYSTEM STATUS -->
+    <section class="status">
+
+        <h2>SYSTEM DIAGNOSTICS</h2>
+
+        <div class="status-row">
+            <span>AI ENGINE</span>
+            <b class="online">● OPERATIONAL</b>
+        </div>
+
+        <div class="status-row">
+            <span>CONNECTION</span>
+            <b class="online">● ONLINE</b>
+        </div>
+
+        <div class="status-row">
+            <span>VOICE INTERFACE</span>
+            <b class="online">● READY</b>
+        </div>
+
+        <div class="status-row">
+            <span>LONG-TERM MEMORY</span>
+            <b class="online">● ACTIVE</b>
+        </div>
+
+    </section>
+
+    <!-- CHAT -->
+    <section id="chat" class="chat">
+
+        <div class="msg ai">
+            J.A.R.V.I.S: System initialized. Awaiting your command.
+        </div>
+
+    </section>
+
+    <!-- INPUT -->
+    <section class="input-area">
+
+        <input
+            id="msg"
+            type="text"
+            placeholder="Enter a command for J.A.R.V.I.S..."
+            autocomplete="off"
+        >
+
+        <button id="send">
+            EXECUTE
+        </button>
+
+        <button id="mic-btn" type="button">
+            🎙️ VOICE
+        </button>
+
+        <button id="cam-btn" type="button">
+            📷 VISION
+        </button>
+
+        <button id="clear-btn" type="button">
+            CLEAR MEMORY
+        </button>
+
+        <input
+            id="img-input"
+            type="file"
+            accept="image/*"
+            hidden
+        >
+
+    </section>
+
+    <footer>
+        J.A.R.V.I.S CORE • ONLINE
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>lang="en">
 <head>
     <meta charset="UTF-8">
 
